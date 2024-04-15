@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: lightblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+aside#extra{
+    background-color: aqua;
+    border-radius: 10px;
+    box-shadow: 2px 3px 12px 1px black;
+    color: rgb(255, 0, 0);
+    font-family: cursive;
+    padding: 3px 5px 3px 5px;
+}
+
+h1:hover{
+    width: 400px;
+    height: 35px;
+    color: blue;
+    background-color: aquamarine;
+    text-decoration: wavy;
+}
