@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alinhamento vertical</title>
+    <style>
+        #a{
+           background-color: rgb(47, 1, 255);
+           height: 500px;
+           max-width: 800px;
+           padding: 10px;
+           position: relative;
+        }
+
+        #ab{
+            background-color: rgb(251, 255, 3);
+            height: 300px;
+            width: 400px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform:translate(-50%, -50%);
+        }
+    </style>
+</head>
+<body>
+        <article id="a">
+            <section id="ab">
+            </section>
+        </article>
+</body>
+</html>
