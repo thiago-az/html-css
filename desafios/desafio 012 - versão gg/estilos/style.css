@@ -18,7 +18,7 @@
 
 html, body{
     min-height: 100vh;
-    background-color: darkgray;
+    background-color: rgb(179, 179, 179);
     font-family: var(--fonte-normal);
 }
 
@@ -36,6 +36,7 @@ header h1{
 }
 
 header p{
+    padding-top: 15px;
     padding-bottom: 50px;
 }
 
@@ -54,6 +55,11 @@ a:hover{
     transition-duration: 350ms;
 }
 
+main{
+    background-color: aliceblue;
+    max-width: 850px;
+    margin: auto;
+}
 
 section {
     padding-top: 10vh;
@@ -64,18 +70,31 @@ section {
     font-size: 20px;
 }
 
-.normal{
-   
+section > p{
+    padding-bottom: 2em ;
 }
 
 .imagem{
-  
+    box-shadow: inset 6px 6px 6px rgba(0, 0, 0, 0.349);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.imagem#flor{
+  background-image: url(../imagens/background001-pq.jpg);
+  background-position: center center;
+  color: white;
 }
 
+.imagem#carta{
+    background-image: url(../imagens/background002.jpg);
+    background-position: center center;
+    }
+    
 .imagem >p{
-    background-color: rgba(0, 0, 0, 0.363);
+    background-color: rgba(0, 0, 0, 0.616);
     padding: 20px;
-    width: 250px;
+    max-width: 250px;
+    color: white;
 }
 
 footer{
@@ -83,4 +102,9 @@ footer{
     color: white;
     text-align: center;
     padding: 7px;
+}
+
+footer p{
+    margin: 5px;
+    line-height: 26px;
 }
