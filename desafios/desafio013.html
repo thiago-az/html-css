@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio de tabelas</title>
+    <style>
+        table{
+            border-collapse: collapse;
+            margin-bottom:15%;
+        }
+
+        table#e td{
+            padding: 10px;
+            border: 1px solid black;
+
+        }
+
+        table#ex td{
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+        table#exi td, th{
+            padding: 10px;
+            border: 1px solid black;
+        }
+
+    </style>
+</head>
+<body>
+    <table id="e">
+<TR>
+    <TD>1</TD>
+    <TD>2</TD>
+    <TD rowspan="2">3</TD>
+    <TD>4</TD>
+</TR>
+<TR>
+    <TD>5</TD>
+    <TD>6</TD>
+    <TD>7</TD>
+</TR>
+<TR>
+    <TD colspan="3">8</TD>
+    <TD>9</TD>  
+</TR>
+<TR>
+    <TD rowspan="2">10</TD>
+    <TD colspan="2">11</TD>
+    <TD>12</TD>
+</TR>
+<tr>
+    <TD>13</TD>
+    <TD>14</TD>
+    <TD>15</TD>
+</tr>
+    </table>
+
+    <table id="ex">
+        <tr>
+            <td rowspan="5">C</td>
+            <td colspan="5">A</td>
+            <td rowspan="4">B</td>
+        </tr>
+        <tr>
+            <td>D</td>
+            <td>E</td>
+            <td>F</td>
+        </tr>
+        <tr>
+            <td>G</td>
+            <td>H</td>
+            <td>I</td>
+        </tr>
+        <tr>
+            <td>J</td>
+            <td>K</td>
+            <td>L</td>
+        </tr>
+        <tr>
+           <td colspan="6">N</td> 
+        </tr>
+    </table>
+
+    <table id="exi">
+        <Caption>
+            Relação de pessoas, gêneros e filmes
+        </Caption>
+        <thead>
+            <tr>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="2" scope="col">Filmes</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <th rowspan="2" scope="row">Mulheres</th>
+                <td>Ana Beatriz</td>
+                <td>Star Wars</td>
+                <td>Han Solo</td>
+            </tr>
+            <tr>
+                <td>Ana Laura</td>
+                <td>Drive</td>
+                <td>Budapeste Hotel</td>
+            </tr>
+            <tr>
+                <th rowspan="2" scope="row">Homens</th>
+                <td>Marcos</td>
+                <td>Eu</td>
+                <td>Você</td>
+            </tr>
+            <tr>
+                <td>Márcio</td>
+                <td>Dentro</td>
+                <td>Trem Bala</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
