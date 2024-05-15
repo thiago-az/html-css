@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+<body>
+    <h1>Checkbox e Radio button</h1>
+
+    <h2>Formulário com Radio e Checkbox</h2>
+
+    <form action="cadastro.php" method="get" autocomplete="on">
+        
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="isxm" value="M">
+            <label for="isxm">Masuclino</label>
+            <br>
+            <input type="radio" name="sexo" id="isxf" value="F">
+            <label for="isxf">Feminino</label>      
+        </fieldset>
+        <fieldset>
+            <legend>Série favorita</legend>
+            <input type="checkbox" name="bb" id="ibb">
+            <label for="ibb">Breaking Bad</label>
+            <br>
+            <input type="checkbox" name="db" id="idb">
+            <label for="idb">Daybreak</label>
+            <br>
+            <input type="checkbox" name="dc" id="idc">
+            <label for="idc">Drácula</label>
+            <br>
+            <input type="checkbox" name="cv" id="icv">
+            <label for="icv">Castlevania</label>
+            <br>
+        </fieldset>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+    </form>
+</body>
+</html>
