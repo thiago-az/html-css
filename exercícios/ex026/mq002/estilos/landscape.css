@@ -1,1 +1,22 @@
 @charset "UTF-8";
+
+/*Landscape (paisagem)*/
+
+body{
+    background: url(../imagens/cev-landscape.jpg) center bottom no-repeat;
+    background-size: contain;
+}
+
+h1, h2{
+    color: white;
+    text-shadow: 2px 2px 2px darkblue;
+}
+
+h1{
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+h2{
+    font-size: 15px;
+}
