@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+/*
+TDB
+
+Celular: 320px a 812px (já possui o mobile first)
+Tablet: 768px a 1112px
+Pc: 1266px a 1920px
+Grandes telas: 1920px a ...
+*/
+
+@media screen and (min-width:768px){
+    #burguer{
+        display: none;
+    }
+
+    #itens{
+        display: block;
+    }
+
+    li{
+        display: inline-block;
+    }
+
+    main{
+        width: 700px;
+    }
+}
