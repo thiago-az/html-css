@@ -20,6 +20,10 @@ Grandes telas: 1920px a ...
         width: 90vw;
     }
 
+    main:after{
+        content: 'Impressões';
+    }
+
     img#phone{display: none;}
     img#tablet{display: none;}
     img#pc{display: none;}
