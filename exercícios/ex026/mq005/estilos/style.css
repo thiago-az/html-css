@@ -1,5 +1,86 @@
 @charset "UTF-8";
 
-body{
-    background-image: url(https://s2-ge.glbimg.com/e8reuZ3Z2AaiGX6XvD9ZB0hfLe8=/129x101:2874x1984/984x0/smart/filters:strip_ic/i.s3.glbimg.com/v1/AUTH_bc8228b6673f488aa253bbcb03c80ec5/internal_photos/bs/2022/E/j/wTePC6QHSNNDVNuBWoug/img-6475.jpg);
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+body, html{
+    background-color: rgb(202, 202, 202);
+}
+
+header{
+    background-color: rgb(153, 153, 153);
+}
+
+header h1{
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+menu{
+    background-color: gray;
+}
+
+menu li{
+    list-style-type: none;
+    text-align: center;
+    padding: 12px;
+    border: 1px solid rgba(172, 171, 171, 0.753);
+}
+
+#burguer{
+    background-color: rgb(71, 71, 71);
+    color: wheat;
+    display: block;
+    text-align: center;
+    padding: 5px;
+    cursor: pointer;
+}
+
+#burguer:hover{
+    background-color: rgb(212, 212, 212);
+    color: black;
+}
+menu a{
+    text-decoration: none;
+    color: white;
+}
+
+menu a:hover{
+    background-color: rgb(202, 202, 202);
+    color: black;
+    padding: 10px;
+    transition-duration: 420ms;
+    border-radius: 10px;
+}
+
+menu a:active{
+    background-color: rgb(238, 238, 238);
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+
+main h2{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main p{
+    margin-bottom: 20px;
+    text-indent: 20px;
+    text-align: justify;
+    line-height: 21px;
 }
